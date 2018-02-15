@@ -19,7 +19,7 @@
 
   <div class="container">
     <div class="navbar navbar-light bg-gradient-success row">
-      <form class="form-inline col-12">
+      <form class="form-inline col-12" id="form">
         <input id="searchInput" class="form-control col-8 col-md-10 mr-2" type="search" placeholder="ej: Luke Skywalker" aria-label="Search">
         <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
       </form>
@@ -33,19 +33,17 @@
       </div> -->
     </div>
   </div>
-
   <!-- Modal -->
-<div class="modal fade" id="modalChrtr" tabindex="-1" role="dialog" aria-labelledby="modalChrtr" aria-hidden="true">
+  <div class="modal fade" id="modalChrtr" tabindex="-1" role="dialog" aria-labelledby="modalChrtr" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
       <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="nameSWC"></h5>
+        <div class="modal-header d-flex">
+          <h5 class="modal-title col-11" id="nameSWC"></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          ...
         </div>
       </div>
     </div>
