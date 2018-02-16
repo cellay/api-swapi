@@ -25,9 +25,12 @@ header h1 {
   border: 2px solid whitesmoke;
   color: whitesmoke;
   height: auto;
-  margin-top: 50px;
-  padding: 20px 20px;
+  margin-top: 15px;
+  padding: 20px;
+  min-width: 250px;
+  max-width: 300px;
 }
+
 
 .modal-title {
   font-family: 'Oswald', sans-serif;
@@ -38,3 +41,4 @@ header h1 {
 .modal-content {
   font-family: 'Raleway', sans-serif;
 }
+
